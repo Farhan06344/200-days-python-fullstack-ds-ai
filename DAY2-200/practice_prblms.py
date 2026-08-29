@@ -72,10 +72,10 @@ print(f"Height: {height}")
 
 current_day = 2
 total_days = 200
-daily_hours = 3
+daily_hours = "3"
 
 remaining_days = total_days - current_day
-total_hours = remaining_days * daily_hours
+total_hours = remaining_days * int(daily_hours) 
 
 print(f"current_day: {current_day}")
 print(f"total_days: {total_days}")      
