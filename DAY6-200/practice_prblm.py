@@ -27,3 +27,4 @@ name = input("Enter your name:")
 for index,character in  enumerate(name,1):
     print(f"{index} -> {character}")      
 print('\n')    
+#this program will print the multiplication table of a given number using for loop and range() function. It also demonstrates the use of enumerate() to print the index along with the character in a string. Additionally, it prints all even numbers between 1 and 100.
